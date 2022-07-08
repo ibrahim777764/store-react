@@ -38,7 +38,6 @@ Launches the test runner in the interactive watch mode.
 ## Author
 
 
-👤### `npm start`
 
 👤 **Ibrahim Naseer**
 
