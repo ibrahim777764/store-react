@@ -10,6 +10,9 @@
 - ReactJS
 - Redux and react-redux
 
+## live view
+
+https://milestone-2-heroku.herokuapp.com/
 ## Installation
 
 Go to your terminal, navigate to your working directory and run
