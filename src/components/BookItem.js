@@ -41,5 +41,5 @@ BookItem.propTypes = {
     title: PropTypes.string.isRequired,
     category: PropTypes.string.isRequired,
   }).isRequired,
-}
+};
 export default BookItem;
