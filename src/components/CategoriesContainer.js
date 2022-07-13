@@ -4,7 +4,7 @@ function CategoriesContainer() {
   return (
     <div className="container">
       <h2>Categories</h2>
-      <button type="button">Check Status</button>
+      <p>Under Contruction</p>
     </div>
   );
 }
