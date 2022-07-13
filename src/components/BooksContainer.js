@@ -1,29 +1,10 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import BooksList from './BooksList';
 import FormAddBook from './FormAddBook';
 
-const books = [
-  {
-    id: 1,
-    category: 'Action',
-    name: 'The hunger games',
-    author: 'Suzane Collins',
-  },
-  {
-    id: 2,
-    category: 'Science Fiction',
-    name: 'Dune',
-    author: 'Frank Herbert',
-  },
-  {
-    id: 3,
-    category: 'Economy',
-    name: 'Capital in the Twenty-First Century',
-    author: 'Suzzane Collins',
-  },
-];
-
 function BooksContainer() {
+  const books = useSelector((state) => state.books);
   return (
     <div className="container">
       <BooksList books={books} />
