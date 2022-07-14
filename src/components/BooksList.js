@@ -13,7 +13,7 @@ function BooksList({ books }) {
       ))}
     </ul>
   );
-}
+} 
 
 BooksList.propTypes = {
   books: PropTypes.arrayOf(BookItem.propTypes.book).isRequired,

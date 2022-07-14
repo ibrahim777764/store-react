@@ -18,7 +18,7 @@ function Navigation() {
             </li>
           </ul>
         </nav>
-      </div>
+      </div> 
     </header>
   );
 }

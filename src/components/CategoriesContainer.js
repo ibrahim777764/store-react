@@ -7,6 +7,6 @@ function CategoriesContainer() {
       <p>Under Contruction</p>
     </div>
   );
-}
+} 
 
 export default CategoriesContainer;
