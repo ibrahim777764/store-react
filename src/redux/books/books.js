@@ -69,7 +69,7 @@ const reducer = (state = initialState, action) => {
     case CLEAR_BOOKS:
       return [];
     case ADD_BOOK:
-      return [...state, {
+      return [...state, 
         ...action.payload,
       }];
     case REMOVE_BOOK:
