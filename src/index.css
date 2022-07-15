@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
 
 * {
   box-sizing: border-box;
@@ -7,7 +8,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -18,11 +19,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  max-width: 920px;
-  margin: auto;
-}
-
 .flex {
   display: flex;
   justify-content: start;
@@ -30,19 +26,6 @@ a {
   min-height: 60px;
 }
 
-header {
-  background-color: var(--primary);
-  height: 62px;
-  color: var(--terciary);
-}
-
-.logo {
-  padding: 5px 0;
-  color: var(--terciary);
-}
-
-.my-link {
-  padding: 20px;
-  color: var(--terciary);
-  font-size: 1.5rem;
+.justify-between {
+  justify-content: space-between;
 }
