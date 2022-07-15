@@ -16,7 +16,7 @@ function BookItem({ book }) {
       <div>
         <h3 className="category">{book.category}</h3>
         <h2 className="title">{book.title}</h2>
-        <h4 className="author">Author Name</h4>
+        <h4 className="author">{book.author}</h4>
         <div className="flex">
           <h5 className="comments">Comments</h5>
           <button type="button" className="remove" onClick={() => handleRemoveBook(book.item_id)}>Remove</button>

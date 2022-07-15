@@ -4,7 +4,23 @@ const REMOVE_BOOK = 'bookStore/books/REMOVE_BOOK';
 const GET_BOOKS = 'bookStore/books/GET_BOOKS';
 const CLEAR_BOOKS = 'bookStore/books/CLEAR_BOOKS';
 
-const initialState = [];
+const initialState = [
+  {
+    title: 'apple',
+    author: 'mark',
+    id: '1',
+  },
+  {
+    title: 'apple',
+    author: 'mark',
+    id: '1',
+  },
+  {
+    title: 'apple',
+    author: 'mark',
+    id: '1',
+  },
+];
 
 export const addBook = (payload) => ({
   type: ADD_BOOK,
