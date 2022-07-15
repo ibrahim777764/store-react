@@ -12,10 +12,10 @@ function BooksContainer() {
   }, []);
   const books = useSelector((state) => state.books);
   return (
-    <div className="container">
+    <div>
       <BooksList books={books} />
       <FormAddBook />
-    </div> 
+    </div>
   );
 }
 

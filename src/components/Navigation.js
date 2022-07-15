@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navigation.css';
 
 function Navigation() {
   return (
     <header>
-      <div className="container flex">
+      <div className="flex panel-bg-navigation">
         <h1>
           <Link to="/" className="logo">Bookstore CMS</Link>
         </h1>
@@ -18,7 +19,7 @@ function Navigation() {
             </li>
           </ul>
         </nav>
-      </div> 
+      </div>
     </header>
   );
 }

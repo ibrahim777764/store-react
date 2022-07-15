@@ -2,6 +2,7 @@ import { React, useRef } from 'react';
 import { useDispatch } from 'react-redux';
 import { nanoid } from 'nanoid';
 import { addBookApi } from '../redux/books/books';
+import './FormAddBook.css';
 
 function FormAddBook() {
   const titleInputRef = useRef();
@@ -21,16 +22,33 @@ function FormAddBook() {
   }
 
   return (
-    <div>
-      <h2>Add new book</h2>
-      <form onSubmit={submitBookToStore}>
-        <input type="text" name="name" placeholder="Book Title" id="title" ref={titleInputRef} required />
-        <input type="text" name="category" placeholder="Category" id="category" ref={categoryInputRef} required />
-        <button type="submit">Add Book</button>
+    <div className="add-book-container">
+      <h2 className="add-title">ADD NEW BOOK</h2>
+      <form onSubmit={submitBookToStore} className="flex justify-between">
+        <input
+          type="text"
+          name="name"
+          placeholder="Book Title"
+          id="title"
+          ref={titleInputRef}
+          required
+          className="input-title"
+        />
+        <input
+          type="text"
+          name="category"
+          placeholder="Category"
+          id="category"
+          ref={categoryInputRef}
+          required
+          className="input-category"
+        />
+        <div>
+          <button type="submit" className="btn-add-book">Add Book</button>
+        </div>
       </form>
     </div>
   );
 }
 
 export default FormAddBook;
- 
