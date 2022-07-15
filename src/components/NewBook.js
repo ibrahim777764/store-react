@@ -48,7 +48,7 @@ const NewBook = ({ book }) => {
               <div className="circle-bar" />
             </div>
             <div className="m-0 ps-4">
-              <p className="p-0 m-0 text-5">64%</p>
+              <p className="p-0 m-0 text-5">99%</p>
               <p className="p-0 m-0 text-6">Completed</p>
             </div>
           </div>
